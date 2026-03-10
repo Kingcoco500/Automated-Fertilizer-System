@@ -1,0 +1,5 @@
+# Arduino IDE files
+*.pyc
+.DS_Store
+build/
+libraries/
