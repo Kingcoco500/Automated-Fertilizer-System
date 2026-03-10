@@ -22,6 +22,11 @@ Plants require different nutrient ratios depending on their species and environm
 The system follows Kirchhoff’s Voltage Law ($V_{source} = V_1 = V_2 = V_3$) in a parallel configuration. The flow rate is determined experimentally using:
 $$\text{Flow Rate} = \frac{\text{Volume (ml)}}{\text{Time (s)}}$$
 
+## 3D Printing
+The chassis and bottle mounts are 3D printable. You can find the design files in the `/hardware/stl` directory.
+* **Infill:** 20%
+* **Material:** PLA or PETG (PETG is better for chemical resistance with fertilizers)
+
 ## Installation & Usage
 1.  **Hardware:** Wire the solenoids to the Relay Module as per the circuit diagram in `/docs`.
 2.  **Software:** Upload `src/npk_dispenser.ino` to your Arduino Uno.
